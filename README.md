@@ -1,56 +1,41 @@
-# Welcome to your Expo app 👋
+# 📱 Gestor de Tareas - Proyecto Frontend
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Un Gestor de Tareas móvil desarrollado con React Native y Expo, diseñado con una interfaz moderna en Dark Mode. Este proyecto demuestra la implementación de navegación por pila, manejo avanzado de estados y estructuración de componentes reutilizables.
 
-## Get started
+## ✨ Características Principales
 
-1. Install dependencies
+- **Diseño Premium (Dark Mode):** Interfaz de usuario estilizada utilizando `StyleSheet` y paletas de colores oscuros con acentos neón.
+- **Navegación Fluida:** Implementación de `@react-navigation/native-stack` para un flujo seguro entre pantallas (Login, Dashboard, Detalles).
+- **Manejo de Estados (Hooks):** Uso intensivo de `useState` para validación de formularios en tiempo real y simulación de CRUD.
+- **Componentes Reutilizables:** Tarjetas de tareas (`TaskRow`) modulares y dinámicas que responden a eventos de usuario.
+- **Calendario Interactivo:** Integración de `react-native-calendars` para la gestión y filtrado de tareas por fecha.
 
+## 🛠️ Tecnologías Utilizadas
+
+- **Framework:** React Native (Expo)
+- **Navegación:** React Navigation v6
+- **Iconografía:** `@expo/vector-icons` (Ionicons)
+- **Lenguaje:** JavaScript
+
+## 🚀 Instalación y Uso Local
+
+1. Clona este repositorio:
    ```bash
-   npm install
-   ```
+   git clone [https://github.com/MANUELHAU/A1T2-GestorTareas.git]
+2. Clona este repositorio: npm install
+3. inicia el servidor de desarrollo: npm install
+4. Presiona w para abrir en el navegador o escanea el QR con la app Expo Go en tu dispositivo móvil.
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+🎓 Información Académica
+Instituto Tecnológico Superior de Valladolid (ITSVA) Ingeniería en Sistemas Computacionales
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Asignatura: Implementación de Aplicaciones Móviles
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Docente: I.S.C. Luis Adrian Balam Espadas
 
-## Get a fresh project
+Actividad: Recuperación - Programa Informático Tema 2 (A1T2)
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Desarrollador: Manuel Jesús Hau Caamal (Matrícula: 22070054)
+   
